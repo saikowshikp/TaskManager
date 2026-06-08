@@ -66,7 +66,7 @@ class Config:
     JWT_SECRET_KEY = "your-jwt-secret-key"
 
     SQLALCHEMY_DATABASE_URI = (
-        "mysql+pymysql://username:password@localhost:3306/taskdb"
+        "mysql+pymysql://username:password@localhost:3306/databasename"
     )
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
@@ -75,6 +75,11 @@ class Config:
 ---
 
 ## Database Setup
+
+Create database
+```mysql
+CREATE DATABASE databasename;
+```
 
 Start the Flask shell:
 
