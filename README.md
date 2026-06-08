@@ -147,22 +147,6 @@ http://127.0.0.1:5000
 
 ---
 
-## Project Structure
-
-```text
-project/
-│
-├── app.py
-├── config.py
-├── models.py
-├── requirements.txt
-├── templates/
-├── static/
-└── README.md
-```
-
----
-
 ## Technologies Used
 
 - Flask
